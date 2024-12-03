@@ -1,0 +1,120 @@
+.container{
+    position: relative;
+    width: 100%;
+}
+.container>img{
+    width: 100%;
+    height: 700px;
+    
+}
+.header{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    color: white;
+    
+}
+#top{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: orangered;
+}
+#search{
+    height: 50%;
+    margin-top: 20px;
+    border: 1px solid orangered;
+    margin-right: 20px;
+    
+   
+   
+}
+#search1{
+    background-color: orangered;
+    color: white;
+    
+}
+input{
+    background-color: black;
+    color: white;
+}
+.section1{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    margin-left: 50px;
+    color: white;
+    
+    
+}
+.section1 h1{
+    font-size: 3rem;
+    font-weight:600;
+}
+.section1 span{
+    color:orangered;
+    font-weight: 600;
+
+}
+.join{
+    background-color: orangered;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px
+}
+.section2{
+    position: absolute;
+    top:30%;
+    margin-left: 700px;
+    height: 370px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+.section2 >.head{
+    margin: 10px;
+    
+
+}
+.section2 button{
+    padding: 5px 100px 5px 100px;
+    color: orangered;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.section2>.second{
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+   
+
+}
+
+.section2>.second button{
+    background-color: orangered;
+    color: black;
+    padding-right: 130px;
+    margin-top: 20px;
+}
+.signup{
+    text-align: center;
+}
+.signup span{
+    color: orangered;
+}
+.log {
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
